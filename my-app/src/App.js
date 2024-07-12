@@ -1,11 +1,11 @@
 import css from './App.module.css';
-import Sidebar from "./components/Sidebar";
+import LifeCyclesCDM from './components/LifeCyclesCDM';
 
 function App() {
   return (
     <div className={css.App}>
       {/* Add your components here */}
-      <Sidebar />
+      <LifeCyclesCDM />
     </div>
   );
 }
