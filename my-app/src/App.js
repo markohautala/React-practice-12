@@ -1,7 +1,7 @@
 import css from './App.module.css';
 /* import LifeCyclesCDM from './components/LifeCyclesCDM'; */
 /* import LifeCyclesCDU from './components/LifeCyclesCDU'; */
-import LifeCyclesCWU from './components/LifeCyclesCWU';
+import Hooks from './components/Hooks';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       {/* Add your components here */}
       {/* <LifeCyclesCDM /> */}
       {/*<LifeCyclesCDU /> */}
-      <LifeCyclesCWU />
+      <Hooks />
     </div>
   );
 }
