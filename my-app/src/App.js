@@ -1,10 +1,11 @@
 import MethodsAsPropsParent from "./components/ControlledForms";
 import ControlledForms from "./components/ControlledForms";
+import UnControlledForms from "./components/UnControlledForms";
 
 function App() {
   return (
     <div>
-      <ControlledForms />
+      <UnControlledForms />
     </div>
   );
 }
