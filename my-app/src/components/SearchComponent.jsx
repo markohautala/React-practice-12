@@ -26,6 +26,8 @@ export default function SearchComponent() {
                 value={search}
                 onChange={handleChange}
             />
+            <h3>Results:</h3>
+            <p>Names found: {filteredNames.length}</p>
             <ul>
                 {filteredNames.map((name, index) => (
                     <li key={index}>{name}</li>
