@@ -1,12 +1,9 @@
-import MethodsAsPropsParent from "./components/ControlledForms";
-import ControlledForms from "./components/ControlledForms";
-import UnControlledForms from "./components/UnControlledForms";
-import SearchComponent from "./components/SearchComponent";
+import LoginComponent from "./components/LoginComponent";
 
 function App() {
   return (
     <div>
-      <SearchComponent />
+      <LoginComponent />
     </div>
   );
 }
