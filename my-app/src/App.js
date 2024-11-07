@@ -1,9 +1,9 @@
-import LoginComponent from "./components/LoginComponent";
+import CallbackParent from "./components/CallbackParent";
 
 function App() {
   return (
     <div>
-      <LoginComponent />
+      <CallbackParent/>
     </div>
   );
 }
